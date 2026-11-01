@@ -1,0 +1,34 @@
+{
+  "site_id": "hongxing",
+  "name": "红杏云",
+  "image": "images/speedtests/hongxing.png",
+  "attribution": "YGPY 红杏云段落及对应alt；图内未独立核实品牌",
+  "test_time_as_printed": "2025-12-06 12:30:43 (CST)",
+  "test_date": "2025-12-06",
+  "report_type": "latency_and_streaming",
+  "has_download_throughput": false,
+  "backend_as_read": "华南-中山电信 [1Gbps]",
+  "tool_as_read": "MiaoKo / FFQ.LA 常规流媒体；主端4.3.3(696)，喵速5.0.0-beta7",
+  "threads": null,
+  "traffic_used_gb": null,
+  "duration_seconds": null,
+  "ping_count": null,
+  "table_rows": 62,
+  "metrics_present": [
+    "TLS RTT",
+    "HTTPS延迟",
+    "流媒体/ChatGPT解锁"
+  ],
+  "example": {
+    "node": "香港中转-广州",
+    "tls_rtt_ms": 27,
+    "https_latency_ms": 115,
+    "average_speed_raw": null,
+    "peak_speed_raw": null
+  },
+  "caveats": [
+    "没有平均/最大下载速度列；不能从这张图得出带宽。",
+    "有查询失败及N/A，不解释为所有服务不可用。",
+    "页面标题中转、后台文字IEPL并非物理线路实测证明。"
+  ]
+}
